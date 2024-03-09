@@ -1,5 +1,5 @@
 % Define the radius and center coordinates
-radius = 5;
+radius = 10;
 center_x = 0;
 center_y = 0;
 
