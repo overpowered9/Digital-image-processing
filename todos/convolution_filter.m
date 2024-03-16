@@ -1,3 +1,4 @@
+
 function outputImage = convolution_filter(inputImage, filterKernel)
     [rows, cols] = size(inputImage);
     [kRows, kCols] = size(filterKernel);
