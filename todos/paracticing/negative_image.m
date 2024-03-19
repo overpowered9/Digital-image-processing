@@ -1,4 +1,4 @@
-A = double(rgb2gray(imread('Hassan.JPG')));
+A = double(rgb2gray(imread('../assets/a.png')));
 [R, C] = size(A);
 B = zeros(R,C);
 for i = 1:1:R

@@ -1,10 +1,9 @@
-
 function outputImage = convolution_filter(inputImage, filterKernel)
     [rows, cols] = size(inputImage);
     [kRows, kCols] = size(filterKernel);
     halfKernelRows = floor(kRows / 2);
     halfKernelCols = floor(kCols / 2);
-    
+    inputImage=imread("stars.jpg");
     % Apply convolution
     outputImage = zeros(rows, cols);
     for i = halfKernelRows+1:rows-halfKernelRows
