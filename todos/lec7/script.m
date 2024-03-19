@@ -6,7 +6,7 @@ kernelSize = 3;
 filterKernel2 = [-1  0  1; -2  0  2; -1  0  1];
 filterKernel = [1,1,1; 1,1,1; 1,1,1];
 % Load your input image
-inputImage = double(rgb2gray(imread('image.jpg')));
+inputImage = double(rgb2gray(imread('assets\stars.jpg')));
 
 % Call the function
 %interImage = order_statistics_filter(inputImage, filterKernel);
